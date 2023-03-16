@@ -1,0 +1,17 @@
+nav {
+    background-color: transparent;
+   color: rgb(85, 81, 81);
+    z-index: 999;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:5px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin:10px 10px 0px 10px;
+}
