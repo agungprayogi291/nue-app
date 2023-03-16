@@ -1,6 +1,8 @@
 import './navigation.css';
 function Navigation(){
     return (
+        <div class='container'>
+
         <nav className="px-3">
             <div className='container d-flex justify-content-between'>
                 <h2>Logo</h2>
@@ -11,6 +13,7 @@ function Navigation(){
                 </ul>
             </div>
         </nav>
+        </div>
     )
 }
 
