@@ -3,21 +3,18 @@ import './App.css';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Navigation from './components/navigation';
-import Footer from './components/footer';
-import Banner from './components/banner';
+import Home from './pages/home';
+import { BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 import Products from './pages/products';
-import Navigasi from './pages/navigasi';
 function App() {
   return (
-    <div className="App">
-        <Navigation />
-          <section id='body'>
-          <Banner />
-          <Products />
-          </section>
-        <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/products' element={<Products />}></Route>
+      </Routes>
+    </Router>
+
   );
 }
 

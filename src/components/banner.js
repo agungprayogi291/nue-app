@@ -1,3 +1,4 @@
+import './bannercss.css';
 function Banner(){
     return(
         <>
@@ -5,7 +6,7 @@ function Banner(){
         <div className='container'>
             <section>
                 <div className='wear'>
-                    <h1>Wear the <br />best.</h1>
+                    <h1 className='text-banner'>Wear the <br />best.</h1>
                 </div>
                 <div className='row' >
                     <p className="banner-desc text-wrap">Lorem ipsum dolor set amet, lorem ipsum dolor set amet</p>
