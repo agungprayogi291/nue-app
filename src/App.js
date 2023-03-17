@@ -7,6 +7,7 @@ import Navigation from './components/navigation';
 import Footer from './components/footer';
 import Banner from './components/banner';
 import Products from './pages/products';
+import Navigasi from './pages/navigasi';
 function App() {
   return (
     <div className="App">

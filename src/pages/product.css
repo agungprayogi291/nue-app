@@ -1,0 +1,8 @@
+.image-product{
+    width:100px;
+    height:auto;
+}
+
+.card:hover{
+    box-shadow: 2px 2px solid black;
+}
