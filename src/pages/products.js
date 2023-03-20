@@ -4,7 +4,8 @@ import Footer from "../components/footer";
 function Products(){
     return(
         <>
-            <Navigation />
+            <Navigation bg='bg-dark text-white' />
+            <br></br>
             <div className="mb-5"></div>
             <section id='body' className="container">
                 <Product />
