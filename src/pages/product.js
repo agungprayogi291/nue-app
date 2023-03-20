@@ -6,6 +6,7 @@ function product(){
             <Navigation bg='bg-dark text-white'/>
             <br></br>
             <div className="mb-5"></div>
+            
         </>
     )
 }
