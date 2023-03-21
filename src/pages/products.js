@@ -5,10 +5,13 @@ function Products(){
     return(
         <>
             <Navigation bg='bg-dark text-white' />
-            <br></br>
+            <br></br><br></br><br></br>
             <div className="mb-5"></div>
-            <section id='body' className="container">
+            <section id='body'>
+                <div className="container mt-5">
+
                 <Product />
+                </div>
             </section>
             <Footer />
         </>

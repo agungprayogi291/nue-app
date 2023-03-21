@@ -1,6 +1,6 @@
 .boxCategory{
     width: 100px;
-    padding:0px;
+    padding:2px;
     margin:5px;
     margin-bottom: 10px;
     text-align: center;
@@ -9,7 +9,7 @@
 }
 
 .boxCategory:hover{
-    background-color: rgb(231, 109, 39);
+    background-color: rgb(230, 123, 17);
     color:white;
 }
 

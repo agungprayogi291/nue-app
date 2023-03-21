@@ -9,32 +9,25 @@ function Footer(){
                     <div className="row">
                         <div className="col-4">
                             <h4>Quick Link</h4>
-                            <ul>
-                                <li>Home</li>
-                                <li>Product</li>
-                                <li>Contact</li>
-                            </ul>
+                            <p>Home</p>
+                            <p>Product</p>
+                            <p>Contact</p>
                         </div>
                         <div className="col-4">
                             <h4>Social Media</h4>
-                            <ul>
-                                <li>Instagram</li>
-                                <li>Whatsapp</li>
-                            </ul>
+                            <p>Instagram</p>
+                            <p>Facbook</p>
+                            <p>Whatsapp</p>
                         </div>
                         <div className="col-4">
                             <h4 >About</h4>
-                            <ul>
-
-                                <li>Company</li>
-                                <li>Product</li>
-                                <li>Shopee</li>
-                            </ul>
+                            <p>Company</p>
+                            <p>Product</p>
                         </div>
                     </div>
                 </section>
                 <hr />
-                <p className='text-center'>@agungprayogi</p>
+                <p className='text-center copy-reg'>@agungprayogi</p>
             </div>
         </footer>
     )

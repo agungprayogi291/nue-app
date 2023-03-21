@@ -1,15 +1,15 @@
 import Navigation from "../components/navigation";
-
-
+import Detail from "../components/detail";
+import Footer from "../components/footer";
 function Product(){
     return (
         <>
             <Navigation bg='bg-dark text-white'/>
             <br></br>
-            <div className="mb-5"></div>
-            <div className="container">
-                <h4>Detail Product</h4>
-            </div>
+            <br></br>
+            <br></br>
+           <Detail />
+           <Footer />
         </>
     )
 }

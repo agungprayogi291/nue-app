@@ -1,6 +1,7 @@
 import ReactCardSlider from "react-card-slider-component";
 import { useNavigate } from "react-router-dom";
-function Slide(){
+import Aos from "aos";
+function Slide(prop){
     const navigate = useNavigate()
     const slides = [
         {image:"https://picsum.photos/200/300",title:"This is a title",description:"This is a description"},
@@ -10,10 +11,11 @@ function Slide(){
         {image:"https://picsum.photos/200/300",title:"This is a fifth title",description:"This is a fifth description"},
         {image:"https://picsum.photos/800/700",title:"This is a sixth title",description:"This is a sixth description"},
         {image:"https://picsum.photos/300/400",title:"This is a seventh title",description:"This is a seventh description"},
-    ]
+    ] 
+    Aos.init()
     return (
         <>
-            <div className="container section-content" >
+            <div className="container section-content mt-5" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <div className="d-flex justify-content-between mb-3">
 
                     <h2>Product</h2>
