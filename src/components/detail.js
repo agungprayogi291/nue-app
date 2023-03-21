@@ -1,5 +1,7 @@
 import './detail.css';
+import { useNavigate } from 'react-router-dom';
 function Detail(){
+    const navigate = useNavigate()
     return(
         <>
          <div className='container mt-5 '>
@@ -19,7 +21,7 @@ function Detail(){
                         </ul>
                             </div>
                             <div className='card-footer'>
-                            <button class='btn btn-danger form-control'>Order</button>
+                            <button class='btn btn-danger form-control' onClick={() => navigate('/order')}>Order</button>
                             </div>
                         </div>
                      

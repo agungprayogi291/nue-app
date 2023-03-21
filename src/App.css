@@ -39,6 +39,15 @@
   height: 400px;
 
 }
+
+.page-top{
+  margin-top: 50px;
+  display: block;
+  padding: 15px;
+}
+.content-body{
+  height: 400px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

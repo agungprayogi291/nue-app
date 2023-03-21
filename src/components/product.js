@@ -31,7 +31,7 @@ function Product(){
                                 </div>
                                 <div className='card-footer d-flex justify-content-end'>
                                     <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' >Order now</button>
+                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
                                 </div>
                             </div>
                           
@@ -46,7 +46,7 @@ function Product(){
                                 </div>
                                 <div className='card-footer d-flex justify-content-end'>
                                     <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' >Order now</button>
+                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function Product(){
                                 </div>
                                 <div className='card-footer d-flex justify-content-end'>
                                     <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' >Order now</button>
+                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
                                 </div>
                             </div>
                           
@@ -75,7 +75,7 @@ function Product(){
                                 </div>
                                 <div className='card-footer d-flex justify-content-end'>
                                     <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' >Order now</button>
+                                    <button className='btn btn-danger' onClick={() =>navigate('/order')} >Order now</button>
                                 </div>
                             </div>
                           
@@ -90,7 +90,7 @@ function Product(){
                                 </div>
                                 <div className='card-footer d-flex justify-content-end'>
                                     <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' >Order now</button>
+                                    <button className='btn btn-danger' onClick={() =>navigate('/order')} >Order now</button>
                                 </div>
                             </div>
                           
@@ -105,7 +105,7 @@ function Product(){
                                 </div>
                                 <div className='card-footer d-flex justify-content-end'>
                                     <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' >Order now</button>
+                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
                                 </div>
                             </div>
                           
