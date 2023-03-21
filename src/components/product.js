@@ -4,6 +4,7 @@ import Navigasi from './navigasi';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import Aos from 'aos';
+// import * as Icon from 'bootstrap-icons';
 function Product(){
     const navigate = useNavigate()
     useEffect(() =>{
@@ -15,7 +16,10 @@ function Product(){
             <div className="container">
                 <Navigasi/>
                 <div>
-
+                    <div className='input-group'>
+                        <input className='form-control form-control-sm' placeholder='Search product...'></input>
+                        <button class='btn btn-dark btn-sm'><i class="bi bi-search"></i></button>
+                    </div>
                     <div className='row row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4'>
                         <div className='col my-2' data-aos='fade-up'>
                             <div className="card" >
