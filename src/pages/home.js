@@ -4,6 +4,7 @@ import Banner from "../components/banner";
 import Product from "../components/product";
 import Footer from "../components/footer";
 import Slide from "../components/slide";
+import Description from "../components/description";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -16,9 +17,12 @@ function Home(){
         <Navigation />
           <section id='body'>
             <Banner />
-            <div data-aos='fade-up'>
-              <Slide />
-            </div>
+              <div data-aos='fade-up'>
+                <Description />
+              </div>
+              <div data-aos='fade-left'>
+                <Slide />
+              </div>
           </section>
           <Footer />
     </div>
