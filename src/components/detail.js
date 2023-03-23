@@ -1,32 +1,55 @@
 import './detail.css';
 import { useNavigate } from 'react-router-dom';
+
 function Detail(){
     const navigate = useNavigate()
     return(
         <>
-         <div className='container mt-5 '>
+            <div className='container mt-5 '>
                 <div className="row">
-                    <div className="col-xs-12 col-sm-6 " >
-                        <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className='img-detail' ></img>
+                    <div className="col-xs-12 col-sm-8 " >
+                        <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className='img-detail'id='img-detail' ></img>
                     </div>
-                    <div className="col-xs-12 col-sm-6 card-detail">
-                        <div className='card'>
-                            <div className='card-header'>
-                            <h1>water heater</h1>
+                    <div className="col-md-4 order-md-2 mb-4">
+                        <h4 className="d-flex justify-content-between align-items-center mb-3">
+                            <span className="text-muted">Your cart</span>
+                            <span className="badge badge-secondary badge-pill">3</span>
+                        </h4>
+                        <ul className="list-group mb-3">
+                            <li className="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 className="my-0">Product name</h6>
+                                <small className="text-muted">Brief description</small>
                             </div>
-                            <div className='card-body'>
-                            <ul>
-                            <li>Price : Rp.50.000</li>
-                            <li>Stock : 100</li>
+                            <span className="text-muted">$12</span>
+                            </li>
+                            <li className="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 className="my-0">Second product</h6>
+                                <small className="text-muted">Brief description</small>
+                            </div>
+                            <span className="text-muted">$8</span>
+                            </li>
+                            <li className="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 className="my-0">Third item</h6>
+                                <small className="text-muted">Brief description</small>
+                            </div>
+                            <span className="text-muted">$5</span>
+                            </li>
+                            <li className="list-group-item d-flex justify-content-between bg-light">
+                            <div className="text-success">
+                                <h6 className="my-0">Promo code</h6>
+                                <small>EXAMPLECODE</small>
+                            </div>
+                            <span className="text-success">-$5</span>
+                            </li>
+                            <li className="list-group-item d-flex justify-content-between">
+                            <span>Total (USD)</span>
+                            <strong>$20</strong>
+                            </li>
                         </ul>
-                            </div>
-                            <div className='card-footer'>
-                            <button class='btn btn-danger form-control' onClick={() => navigate('/order')}>Order</button>
-                            </div>
-                        </div>
-                     
-                        
-                     
+                        <button className='btn btn-dark text-white w-100' onClick={()=> navigate('/order',{state:{id:1,name:'water heater'}})}>Order</button>
                     </div>
                 </div>
             </div>

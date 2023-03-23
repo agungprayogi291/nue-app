@@ -8,7 +8,7 @@ function Orders(){
             <div className="container">
                 <Order />
             </div>
-            <Footer />
+       
             
         </>
     )
