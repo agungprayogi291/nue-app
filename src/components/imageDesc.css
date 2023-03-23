@@ -1,0 +1,11 @@
+#img-detail{
+    height:600px;
+    width: 100%;
+    filter : grayscale(90%);
+    background-image: url('../../public/water-heater.jpg');
+    background-size: cover;
+}
+#text-desc{
+    align-content: baseline;
+    vertical-align: baseline;
+}

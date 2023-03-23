@@ -1,22 +1,19 @@
 footer{
-    background-color: rgb(43, 42, 42);
+    background-color: rgb(243, 237, 233);
     margin-bottom: -10%;
     margin-top: 10%;
-    padding:10px;
-    min-height:auto;
+    padding:20px;
+    height:500px;
     position: relative;
     clear: both;
-    /* position: relative; */
-    /* height: 200px; */
-    /* margin-top: -200px; */
 }
 footer  {
-    color:white;
+    color:rgb(139, 41, 41);
 }
 .footer-info{
   height: 150px;
 
- padding-top:2%;
+ padding-top:5%;
 }
 .footer-info p{
     font-size: 12px;

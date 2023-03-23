@@ -1,0 +1,10 @@
+.container-maps{
+    z-index: 999999999999999999999999999999999;
+    max-width: 200px;
+    position: relative;
+}
+
+MapContainer{
+    width: 200px;
+    z-index: 1;
+}

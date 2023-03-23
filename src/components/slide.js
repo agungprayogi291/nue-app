@@ -1,6 +1,7 @@
 import ReactCardSlider from "react-card-slider-component";
 import { useNavigate } from "react-router-dom";
 import Aos from "aos";
+import './slide.css';
 function Slide(prop){
     const navigate = useNavigate()
     const slides = [
@@ -15,13 +16,12 @@ function Slide(prop){
     Aos.init()
     return (
         <>
+            
             <div className="container section-content mt-5" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-                <div className="d-flex justify-content-between mb-3">
-
-                    <h2>Product</h2>
+                <ReactCardSlider slides={slides}/>
+                <div className="d-flex justify-content-center mb-3 my-5">
                     <button className="btn btn-dark text-white" onClick={() => navigate('/products')}>Show More...</button>
                 </div>
-                <ReactCardSlider slides={slides}/>
             </div>
         </>
     )

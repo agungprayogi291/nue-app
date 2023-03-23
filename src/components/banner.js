@@ -1,6 +1,7 @@
 import './bannercss.css';
+import { useNavigate } from 'react-router-dom';
 function Banner(prop){
-   
+    const navigate = useNavigate();
     return(
         <>
         <section id='banner'>
@@ -11,10 +12,9 @@ function Banner(prop){
                     </div>
                     <div className='row' >
                         <div id='card-shope-now' data-aos={prop.animate}>
-                            <div className='p-3 text-white' id='shope-now'>
-                                <h5>Shope Now</h5>
+                            <div className='p-3 ' id='shope-now'>
+                                <h5 onClick={() => navigate('/products')}>Shope Now <i class="bi bi-arrow-right"></i></h5>
                             </div>
-                            
                         </div>
                     </div>
                 </section>
