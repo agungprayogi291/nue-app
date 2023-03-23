@@ -3,7 +3,11 @@ import Product from "../components/product";
 import Footer from "../components/footer";
 import Slide from "../components/slide";
 import Aos from "aos";
+import { useEffect } from "react";
 function Products(){
+    // useEffect(()=>{
+    //     window.screenTop(0,0)
+    // },[])
     return(
         <>
             <Navigation bg='bg-light text-dark' />
