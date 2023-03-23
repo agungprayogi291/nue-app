@@ -1,15 +1,19 @@
 import { useNavigate } from "react-router-dom";
-function Order(){
+import { useLocation } from "react-router-dom";
+function Order(prop){
     const navigate = useNavigate()
+    const location = useLocation()
+
     return(
         <>
-        
             <div className="page-top "></div>
             <br></br>
             <div className="content-body">
-
                 <a href="#" className="" onClick={()=> navigate('/products')}> back</a>
                 <form className="form mt-5">
+                    <div className="form-group my-2">
+                        <input className='form-control form-control-sm' placeholder="name" type='text' value={location.state.name} disabled></input>
+                    </div>
                     <div className="form-group my-2">
                         <input className='form-control form-control-sm' placeholder="name" type='text'></input>
                     </div>

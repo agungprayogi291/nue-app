@@ -1,5 +1,6 @@
 .img-detail{
     width: 100%;
+    filter: grayscale();
 }
 .card-detail li{
     font-weight: 300;

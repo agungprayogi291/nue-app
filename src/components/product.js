@@ -13,103 +13,98 @@ function Product(){
     return (
         <>
             
-            <div className="container">
-                <Navigasi/>
-                <div>
-                    <div className='input-group'>
-                        <input className='form-control form-control-sm' placeholder='Search product...'></input>
-                        <button class='btn btn-dark btn-sm'><i class="bi bi-search"></i></button>
+            <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light headline">
+                <div className="col-md-5 p-lg-5 mx-auto my-5">
+                    <h1 className="display-4 font-weight-normal">Punny headline</h1>
+                    <p className="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+                    <a className="btn btn-outline-secondary" href="#">Coming soon</a>
+                </div>
+                <div className="product-device shadow-sm d-none d-md-block"></div>
+                <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+            </div>
+            <div className='row'>
+                <div className='col-6'>
+                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                        <div className="my-3 py-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            
+                        </div>
+                        <div className="bg-light shadow-sm mx-auto" ></div>
                     </div>
-                    <div className='row row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4'>
-                        <div className='col my-2' data-aos='fade-up'>
-                            <div className="card" >
-                                <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h4>Name Product</h4>
-                                    <h5>Rp. 50.000</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div className='card-footer d-flex justify-content-end'>
-                                    <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
-                                </div>
-                            </div>
-                          
+                </div>
+                <div className='col-6'>
+                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div className="my-3 p-3">
+                        <h2 className="display-5">Another headline</h2>
+                        <p className="lead">And an even wittier subheading.</p>
                         </div>
-                        <div className='col my-2' >
-                            <div className="card" data-aos='fade-up'>
-                                <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h4>Name Product</h4>
-                                    <h5>Rp. 50.000</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div className='card-footer d-flex justify-content-end'>
-                                    <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
-                                </div>
-                            </div>
+                        <div className="bg-dark shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div className='row'>
+                <div className='col-6'>
+                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                        <div className="my-3 py-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            
                         </div>
-                        <div className='col my-2'>
-                            <div className="card" data-aos='fade-up' data-aos-easing="ease-in-sine" data-aos-duration="600">
-                                <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h4>Name Product</h4>
-                                    <h5>Rp. 50.000</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div className='card-footer d-flex justify-content-end'>
-                                    <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
-                                </div>
-                            </div>
-                          
+                        <div className="bg-light shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+                <div className='col-6'>
+                    <div className="bg-info mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div className="my-3 p-3">
+                        <h2 className="display-5">Another headline</h2>
+                        <p className="lead">And an even wittier subheading.</p>
                         </div>
-                        <div className='col my-2'>
-                            <div className="card" data-aos='fade-up'>
-                                <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h4>Name Product</h4>
-                                    <h5>Rp. 50.000</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div className='card-footer d-flex justify-content-end'>
-                                    <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' onClick={() =>navigate('/order')} >Order now</button>
-                                </div>
-                            </div>
-                          
+                        <div className="bg-dark shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-6'>
+                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                        <div className="my-3 py-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            
                         </div>
-                        <div className='col my-2'>
-                            <div className="card" data-aos='fade-up'  data-aos-easing="ease-in-sine" data-aos-duration="600">
-                                <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h4>Name Product</h4>
-                                    <h5>Rp. 50.000</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div className='card-footer d-flex justify-content-end'>
-                                    <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' onClick={() =>navigate('/order')} >Order now</button>
-                                </div>
-                            </div>
-                          
+                        <div className="bg-light shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+                <div className='col-6'>
+                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div className="my-3 p-3">
+                        <h2 className="display-5">Another headline</h2>
+                        <p className="lead">And an even wittier subheading.</p>
                         </div>
-                        <div className='col my-2'>
-                            <div className="card" data-aos='fade-up'>
-                                <img src={process.env.PUBLIC_URL+"/water-heater.jpg"} className="card-img-top"></img>
-                                <div className="card-body">
-                                    <h4>Name Product</h4>
-                                    <h5>Rp. 50.000</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                                <div className='card-footer d-flex justify-content-end'>
-                                    <button className='btn btn-info mx-2' onClick={() => navigate('/product')}> Detail</button>
-                                    <button className='btn btn-danger' onClick={() =>navigate('/order')}>Order now</button>
-                                </div>
-                            </div>
-                          
+                        <div className="bg-dark shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-6'>
+                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                        <div className="my-3 py-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            
                         </div>
+                        <div className="bg-light shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+                <div className='col-6'>
+                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div className="my-3 p-3">
+                        <h2 className="display-5">Another headline</h2>
+                        <p className="lead">And an even wittier subheading.</p>
+                        </div>
+                        <div className="bg-dark shadow-sm mx-auto" ></div>
                     </div>
                 </div>
             </div>
