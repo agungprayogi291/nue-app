@@ -16,8 +16,7 @@ function Products(){
                 <div className="container mt-5 py-5">
                 <Product />
                     <div data-aos='fade-up'>
-                        <Slide />
-                        
+                        <Slide />  
                     </div>
                 </div>
             </section>

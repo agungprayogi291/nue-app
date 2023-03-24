@@ -24,9 +24,10 @@ function Home(){
                 <Description />
               </div>
               <div data-aos='fade-up'>
-              <Slide />
+              <Slide use="true" />
               </div>
               <ImageDesc />
+              <h4>address</h4>
               <Maps />
           </section>
           <Footer />

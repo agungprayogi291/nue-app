@@ -5,15 +5,18 @@ import './maps.css';
 function Maps(){
 
     return(
-        <div className='container container-maps'>
+        <div className='container parent-map'>
 
-            <MapContainer center={[51.505, -0.09]} zoom={1}  scrollWheelZoom={false}>
-                <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
+            <div className='container container-maps'>
 
-            </MapContainer>
+                <MapContainer center={[51.505, -0.09]} zoom={1}  scrollWheelZoom={true}>
+                    <TileLayer
+                        attribution='&copy; <a href="http://{s}.google.com/vt?lyrs=m&x={x}&y={y}&z={z}">OpenStreetMap</a> contributors'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+
+                </MapContainer>
+            </div>
         </div>
     )
 }

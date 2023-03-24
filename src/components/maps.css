@@ -1,10 +1,15 @@
 .container-maps{
     z-index: 999999999999999999999999999999999;
-    max-width: 200px;
+    width:100%;
     position: relative;
 }
 
 MapContainer{
-    width: 200px;
+    width: 600px;
     z-index: 1;
+}
+.parent-map{
+    position: relative;
+    overflow: hidden;
+ 
 }

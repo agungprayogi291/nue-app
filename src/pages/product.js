@@ -2,8 +2,12 @@ import Navigation from "../components/navigation";
 import Detail from "../components/detail";
 import Footer from "../components/footer";
 import Slide from "../components/slide";
-
+import { useEffect } from "react";
 function Product(){
+    useEffect(() =>{
+        // Aos.init()
+        window.scrollTo(0,0)
+      },[])
     return (
         <>
             <Navigation bg='bg-light text-dark' />
@@ -13,7 +17,6 @@ function Product(){
             <Detail />
             <hr></hr>
             <Slide />
-         
            <Footer />
         </>
     )

@@ -36,10 +36,12 @@ function Product(){
                 <div className='col-6'>
                     <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
-                        <h2 className="display-5">Another headline</h2>
-                        <p className="lead">And an even wittier subheading.</p>
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            <button className='btn btn-dark text-white' onClick={() => navigate('/category')}>Telusuri</button>
                         </div>
-                        <div className="bg-dark shadow-sm mx-auto" ></div>
+                        <div className="bg-dark shadow-sm mx-auto" >
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,16 +53,41 @@ function Product(){
                         <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
-                            
+                            <button className='btn btn-dark text-white' onClick={() => navigate('/category')}>Telusuri</button>
                         </div>
-                        <div className="bg-light shadow-sm mx-auto" ></div>
+                        <div className="bg-light shadow-sm mx-auto" >
+                        </div>
                     </div>
                 </div>
                 <div className='col-6'>
                     <div className="bg-info mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
-                        <h2 className="display-5">Another headline</h2>
-                        <p className="lead">And an even wittier subheading.</p>
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            <button className='btn btn-dark text-white' onClick={() => navigate('/category')}>Telusuri</button>
+                        </div>
+                        <div className="bg-dark shadow-sm mx-auto" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-6'>
+                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                        <div className="my-3 py-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            <button className='btn btn-light text-dark' onClick={() => navigate('/category')}>Telusuri</button>
+                        </div>
+                        <div className="bg-light shadow-sm mx-auto" ></div>
+                    </div>
+                </div>
+                <div className='col-6'>
+                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <div className="my-3 p-3">
+                            <h2 className="display-5">Another headline</h2>
+                            <p className="lead">And an even wittier subheading.</p>
+                            <button className='btn btn-dark text-white' onClick={() => navigate('/category')}>Telusuri</button>
                         </div>
                         <div className="bg-dark shadow-sm mx-auto" ></div>
                     </div>
@@ -72,7 +99,7 @@ function Product(){
                         <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
-                            
+                            <button className='btn btn-light text-dark' onClick={() => navigate('/category')}>Telusuri</button>
                         </div>
                         <div className="bg-light shadow-sm mx-auto" ></div>
                     </div>
@@ -80,29 +107,9 @@ function Product(){
                 <div className='col-6'>
                     <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
-                        <h2 className="display-5">Another headline</h2>
-                        <p className="lead">And an even wittier subheading.</p>
-                        </div>
-                        <div className="bg-dark shadow-sm mx-auto" ></div>
-                    </div>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col-6'>
-                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                        <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
-                            
-                        </div>
-                        <div className="bg-light shadow-sm mx-auto" ></div>
-                    </div>
-                </div>
-                <div className='col-6'>
-                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                        <div className="my-3 p-3">
-                        <h2 className="display-5">Another headline</h2>
-                        <p className="lead">And an even wittier subheading.</p>
+                            <button className='btn btn-dark text-white' onClick={() => navigate('/category')}>Telusuri</button>
                         </div>
                         <div className="bg-dark shadow-sm mx-auto" ></div>
                     </div>

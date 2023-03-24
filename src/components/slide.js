@@ -23,7 +23,8 @@ function Slide(prop){
             <div className="container section-content mt-5" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <ReactCardSlider slides={slides}/>
                 <div className="d-flex justify-content-center mb-3 my-5">
-                    <button className="btn btn-dark text-white" onClick={() => navigate('/products')}>Show More...</button>
+                    
+                    <button className={ prop.use ? "btn btn-dark text-white" :"collapse"} onClick={() => navigate('/products')}>Telusuri...</button>
                 </div>
             </div>
         </>

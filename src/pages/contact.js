@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 function Contact(){
     return(
         <>
-            <Navigation bg="bg-dark text-white" />
+            <Navigation bg="bg-light text-dark" />
             <br></br>
             <br></br>
             <br></br>
