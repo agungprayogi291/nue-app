@@ -2,6 +2,7 @@ import ReactCardSlider from "react-card-slider-component";
 import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import './slide.css';
+// import water from '../images/water.jpg';
 function Slide(prop){
     const navigate = useNavigate()
     function slideClick(){
