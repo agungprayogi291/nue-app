@@ -23,12 +23,13 @@ function Home(){
               <div data-aos='fade-up'>
                 <Description />
               </div>
+              <ImageDesc />
+           
               <div data-aos='fade-up'>
               <Slide use="true" />
               </div>
-              <ImageDesc />
-              <h4>address</h4>
-              <Maps />
+             
+            
           </section>
           <Footer />
     </div>

@@ -1,5 +1,6 @@
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
+
 function Contact(){
     return(
         <>
@@ -21,6 +22,7 @@ function Contact(){
                             <div className="card-body">
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
+                            <button className="btn btn-danger btn-call w-100">Call</button>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12 my-4">
