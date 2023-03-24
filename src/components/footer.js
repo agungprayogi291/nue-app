@@ -14,7 +14,7 @@ function Footer(){
                         <div className="col-sm-3 col-xs-12">
                             <h4>Social Media</h4>
                             <p> <i class="bi bi-instagram"></i> Instagram</p>
-                            <p> <i class="bi bi-facebook"></i>Facbook</p>
+                            <p> <i class="bi bi-facebook"></i> Facbook</p>
                         </div>
                         <div className="col-sm-3 col-xs-12">
                             <h4 >About</h4>

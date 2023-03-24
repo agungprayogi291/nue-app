@@ -4,6 +4,20 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './order.css';
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+import Pdf from "./pdf";
+import ReactPDF from "@react-pdf/renderer";
+
+function doOrder(){
+
+    const MySwal = withReactContent(Swal)
+    MySwal.fire({
+        title: <strong>Good job!</strong>,
+        html: <i>You clicked the button!</i>,
+        icon: 'success'
+    })
+}
 function Order(prop){
     const navigate = useNavigate()
     const location = useLocation()
@@ -23,6 +37,9 @@ function Order(prop){
                     </div>
                     <div className="form-group my-2">
                         <input className='form-control form-control-sm' type='email' placeholder="example@gmail.com"></input>
+                    </div>
+                    <div className="form-group my-2">
+                        <input className='form-control form-control-sm' type='text' placeholder="+62"></input>
                     </div>
                     <div className="row">
                         <div className="col-sm-6">
@@ -53,7 +70,7 @@ function Order(prop){
                         </div>
                     </div>
                     <div className="form-group my-2">
-                        <button className="btn btn-dark form-control">Submit</button>
+                        <button className="btn btn-dark form-control" type='button' onClick={() => doOrder()}>Submit</button>
                     </div>
                 </form>
             </div>

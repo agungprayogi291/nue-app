@@ -1,10 +1,9 @@
 // import ban from '../../public/banner.jpg';
 import './product.css';
 import Navigasi from './navigasi';
-import { useNavigate } from 'react-router-dom';
+import { Form, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import Aos from 'aos';
-// import * as Icon from 'bootstrap-icons';
 function Product(){
     const navigate = useNavigate()
     useEffect(() =>{
@@ -23,8 +22,8 @@ function Product(){
                 <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
             </div>
             <div className='row'>
-                <div className='col-6'>
-                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div className='col-6' data-aos='fade-up'>
+                    <div className="categori1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                         <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
@@ -33,8 +32,8 @@ function Product(){
                         <div className="bg-light shadow-sm mx-auto" ></div>
                     </div>
                 </div>
-                <div className='col-6'>
-                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div className='col-6' data-aos='fade-up'>
+                    <div className="categori2 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
@@ -48,8 +47,8 @@ function Product(){
         
 
             <div className='row'>
-                <div className='col-6'>
-                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div className='col-6' data-aos='fade-up'>
+                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                         <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
@@ -59,8 +58,8 @@ function Product(){
                         </div>
                     </div>
                 </div>
-                <div className='col-6'>
-                    <div className="bg-info mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div className='col-6' data-aos='fade-up'>
+                    <div className="categori1 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
@@ -72,8 +71,8 @@ function Product(){
                 </div>
             </div>
             <div className='row'>
-                <div className='col-6'>
-                    <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div className='col-6' data-aos='fade-up'>
+                    <div className="categori5 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center  overflow-hidden">
                         <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
@@ -82,8 +81,8 @@ function Product(){
                         <div className="bg-light shadow-sm mx-auto" ></div>
                     </div>
                 </div>
-                <div className='col-6'>
-                    <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div className='col-6' data-aos='fade-up'>
+                    <div className="categori4 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
                             <h2 className="display-5">Another headline</h2>
                             <p className="lead">And an even wittier subheading.</p>
@@ -94,7 +93,7 @@ function Product(){
                 </div>
             </div>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-6' data-aos='fade-up'>
                     <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                         <div className="my-3 py-3">
                             <h2 className="display-5">Another headline</h2>
@@ -104,7 +103,7 @@ function Product(){
                         <div className="bg-light shadow-sm mx-auto" ></div>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-6' data-aos='fade-up'>
                     <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                         <div className="my-3 p-3">
                             <h2 className="display-5">Another headline</h2>

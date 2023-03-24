@@ -16,12 +16,13 @@ nav ul li{
     margin:10px 10px 0px 10px;
     font-size: 14px;
     padding:0px 3px ;
+    padding:5px;
 }
 
 nav ul li:hover{
-    /* background-color: aqua; */
-    border-radius: 8px;
-    border:1px solid rgb(50, 54, 50);
+    background-color: rgb(219, 226, 226);
+    border-radius: 5px;
+    border:1px solid rgb(112, 113, 112);
     cursor: pointer;
 }
 
