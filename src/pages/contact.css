@@ -1,0 +1,40 @@
+.btnCall{
+    background-color: rgb(249, 254, 255);
+    color:rgb(245, 13, 13);
+}
+.btnCall:hover{
+    background-color: rgb(245, 13, 13);
+    color:white;
+}
+
+.btnSend{
+    background-color: rgb(249, 254, 255);
+    color:rgb(245, 13, 13);
+}
+.btnSend:hover{
+    background-color: rgb(245, 13, 13);
+    color:white;
+}
+
+.btnWa{
+    background-color: rgb(249, 254, 255);
+    color:rgb(245, 13, 13);
+}
+.btnWa:hover{
+    background-color: rgb(245, 13, 13);
+    color:white;
+}
+
+
+.card-header h5{
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    text-align: center;
+}
+
+.card-text{
+    font-weight: 300;
+    font-size:18px;
+    color:rgb(95, 98, 98);
+}

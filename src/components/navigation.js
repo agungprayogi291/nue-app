@@ -24,7 +24,7 @@ function Navigation(prop){
                     <br></br>
                     <br></br>
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" onClick={() => navigate('/')}>home</a>
+                        <a className="nav-link" aria-current="page" onClick={() => navigate('/')}> home</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" onClick={() => navigate('/products')}>Product</a>
