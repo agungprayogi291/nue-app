@@ -10,6 +10,7 @@ import Maps from "../components/maps";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import  category from '../data/category';
 function Home(){
   useEffect(() =>{
     Aos.init()
@@ -17,7 +18,7 @@ function Home(){
   },[])
     return (
         <div className="App">
-        <Navigation />
+        <Navigation data={category}/>
           <section id='body'>
             <Banner />
               <div data-aos='fade-up'>
@@ -31,7 +32,7 @@ function Home(){
              
             
           </section>
-          <Footer />
+          <Footer data={category}/>
     </div>
     )
 }

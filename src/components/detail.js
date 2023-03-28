@@ -1,8 +1,10 @@
 import './detail.css';
 import { useNavigate } from 'react-router-dom';
-
+import {useLocation} from 'react-router-dom';
 function Detail(){
     const navigate = useNavigate()
+    const location = useLocation()
+    console.log('tes')
     return(
         <>
             <div className='container mt-5 '>

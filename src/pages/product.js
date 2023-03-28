@@ -3,6 +3,7 @@ import Detail from "../components/detail";
 import Footer from "../components/footer";
 import Slide from "../components/slider/slide";
 import { useEffect } from "react";
+import useLocation from 'react-router-dom';
 function Product(){
     useEffect(() =>{
         // Aos.init()

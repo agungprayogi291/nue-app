@@ -11,8 +11,6 @@ function Orders(){
                     <Checkout />
                 </div>
             </div>
-       
-            
         </>
     )
 }

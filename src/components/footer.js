@@ -1,15 +1,23 @@
 import './footer.css';
-function Footer(){
+import category from '../data/category'
+function Footer(prop){
+    // console.log(prop)
+    const listCategory = [];
+    category.forEach(element =>{
+        listCategory.push(
+            <>
+                <p>{element.name}</p>
+            </>
+        )
+    })
     return (
         <footer>
             <div className='container'>
                 <section className='footer-info mt-4'>
                     <div className="row">
                         <div className="col-sm-3 col-xs-12">
-                            <h4>Quick Link</h4>
-                            <p> <i class="bi bi-whatsapp"></i> Home</p>
-                            <p>Product</p>
-                            <p>Contact</p>
+                            <h4>Product</h4>
+                            {listCategory}
                         </div>
                         <div className="col-sm-3 col-xs-12">
                             <h4>Social Media</h4>
