@@ -30,7 +30,7 @@ function Order(prop){
                 <a href="#" className="" onClick={()=> navigate('/products')}> back</a>
                 <form className="form mt-5">
                     <div className="form-group my-2">
-                        <input className='form-control form-control-sm' placeholder="name" type='text' value={location.state.name} disabled></input>
+                        <input className='form-control form-control-sm' placeholder="name" type='text' disabled></input>
                     </div>
                     <div className="form-group my-2">
                         <input className='form-control form-control-sm' placeholder="name" type='text'></input>

@@ -1,9 +1,9 @@
 
 import Navigation from "../components/navigation";
-import Banner from "../components/banner";
+import Banner from "../components/banner/banner";
 import Product from "../components/product";
 import Footer from "../components/footer";
-import Slide from "../components/slide";
+import Slide from "../components/slider/slide";
 import Description from "../components/description";
 import ImageDesc from "../components/imageDesc";
 import Maps from "../components/maps";

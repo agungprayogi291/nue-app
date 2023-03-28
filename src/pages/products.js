@@ -1,7 +1,7 @@
 import Navigation from "../components/navigation";
 import Product from "../components/product";
 import Footer from "../components/footer";
-import Slide from "../components/slide";
+import Slide from "../components/slider/slide";
 import Aos from "aos";
 import { useEffect } from "react";
 function Products(){
