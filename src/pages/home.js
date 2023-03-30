@@ -21,14 +21,14 @@ function Home(){
         <Navigation data={category}/>
           <section id='body'>
             <Banner />
-              <div data-aos='fade-up'>
-                <Description />
-              </div>
-              <ImageDesc />
            
-              <div data-aos='fade-up'>
-              <Slide use="true" />
+              <div data-aos='fade-up' className="mb-5">
+                <h3 className="discover-product">Discover Product</h3>
+                <label className='tag-populer'>Populer</label>
+                <Slide use="true" />
               </div>
+          
+              <ImageDesc />
              
             
           </section>

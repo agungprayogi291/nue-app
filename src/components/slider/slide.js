@@ -93,7 +93,7 @@ function Slide(prop){
                   </Carousel>
                </div>
                 <div className="d-flex justify-content-center mt-5">
-                    <button className={ prop.use ? "btn btn-dark text-white" :"collapse"} onClick={() => navigate('/products')}>Telusuri...</button>
+                    <button className={ prop.use ? "btn  text-white" :"collapse"} onClick={() => navigate('/products')}>Telusuri...</button>
                 </div>
             </div>
         </>

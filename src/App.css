@@ -28,8 +28,6 @@
   position: relative;
 }
 
-
-
 .image-product{
   width:200px;
   height:auto;
@@ -48,6 +46,14 @@
 .content-body{
   height: 400px;
 }
+
+.discover-product{
+  /* font-optical-sizing: 1000px; */
+  font-weight: 900;
+  font-size: 89px;
+  font-family: 'Monsterat';
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -75,5 +81,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 576px) { 
+  .discover-product{
+    font-size: 42px;  
   }
 }

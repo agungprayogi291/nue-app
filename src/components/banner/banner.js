@@ -19,6 +19,9 @@ function Banner(prop){
                     </div>
                 </section>
             </div>
+            <div className='discover-banner'>
+
+            </div>
         </section>
         
         </>

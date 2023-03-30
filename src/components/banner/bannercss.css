@@ -7,6 +7,7 @@
     background-size: cover;
     position: relative;
     margin-bottom: 5%;
+    /* filter:grayscale(); */
   }
   #shope-now{
     background-color: rgb(212, 10, 10);
@@ -37,6 +38,17 @@
 
  }
 
+ .discover-banner{
+    background-image: url('../../../public/images/water-heater-banner.jpg');
+    height:100%;
+    width:40%;
+    position: absolute;
+    bottom:-25%;
+    right:3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
   @media (max-width: 576px) { 
    
     .wear h1 {
@@ -44,7 +56,7 @@
     }
    
     #body #banner{
-      background-image: url('../../../public/banner.jpg');
+      background-image: url('../../../public/images/water-heater-banner.jpg');
       background-repeat: no-repeat;
       background-position:center;
       width: 100%;
@@ -54,7 +66,7 @@
       padding-bottom: 0%;
       /* margin-top: -100px; */
     }
-     
+    
   
     #shope-now{
       background-color: rgb(212, 10, 10);
@@ -73,6 +85,9 @@
      }
      .container-desc{
       height: 100%;
+    }
+    .discover-banner{
+      display: none;
     }
   }
   
